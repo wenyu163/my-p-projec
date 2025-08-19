@@ -1,5 +1,5 @@
 export default async function handler(req, res) {
-  const targetBase = "http://your-server-ip:5000"; // 源站地址 + 端口
+  const targetBase = "http://dsm2.laihongguang.top:5245"; // 源站地址 + 端口
 
   // 拼接目标 URL，保留路径和查询参数
   const targetUrl = targetBase + req.url;
